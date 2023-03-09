@@ -1,38 +1,49 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.caixa{
+  width: 60vh;
+  height: 60vh;
+  background-color: rgba(9, 82, 57, 0.301);
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-left: 39%;
+  padding-top: 2%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.texto h1{
+  font-size: 120px;
+  position: relative;
+
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.botão{
+  position: relative;
+  left: 27%;
+  top: 20%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.botão button{
+  width: 20%;
+  height: 5vh;
+  margin-left: 2%;
+  font-size: 25px;
+  color: rgb(9, 82, 57);;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  transition: all 1s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.botão button:hover{
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: black;
+  border: none;
 }
